@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'clear';
+    name: 'clear',
     description: "clear messages!",
     execute(message, args) {
         if(!args[0]) return message.reply("please enter the amount of messages that u want to clear!");
